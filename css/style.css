@@ -255,18 +255,18 @@ body {
   font-size: 24px;
   color: #FFFFFF;
   background-repeat: no-repeat;
-  background-size: 115% 115%;
-  background-position: center center;
-  transition: all 0.2s ease-in;
-}
-.apartment a:hover {
   background-size: 100% 100%;
+  background-position: center center;
+}
+.apartment a:hover span{
+  bottom: 30px;;
 }
 .apartment a span {
   position: absolute;
   left: 50px;
   right: 50px;
   bottom: 50px;
+  transition: all 0.2s ease-in;
 }
 .apartment .fon__text {
   left: 0;
